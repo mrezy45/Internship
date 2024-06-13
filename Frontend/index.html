@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Bootstrap Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple website containing a title, a description, and an image.</p>
-    <img src="image.png" alt="A descriptive alt text">
+    <div class="container">
+        <div class="jumbotron mt-4">
+            <h1 class="display-4"><em>Welcome to My Website<em></h1>
+            <p class="lead font-bold"><em>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</em></p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>My Heading</h2>
+        <button type="button" class="btn btn-primary">Click Me</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
